@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.panel {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.red {
+  background-color: #cf3535;
+  background-image: none;
+}
+
+.blue {
+  background-color: #0011fd;
+  background-image: none;
+}
+
+.panel p {
+  font-size: 32px;
+}
